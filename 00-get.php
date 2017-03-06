@@ -1,6 +1,6 @@
 
 
-<!-- Als je GEEN action meegeeft aan een form, wordt standaard de huidige pagina gebruikt. (Soms noemt met dit een POSTBACK.) -->
+<!-- Als je GEEN action meegeeft aan een form, wordt standaard de huidige pagina gebruikt. (Soms noemt men dit een POSTBACK.) -->
 
 <form method="get">
     <select name="vorm">
