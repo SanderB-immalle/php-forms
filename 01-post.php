@@ -4,7 +4,7 @@
 <!-- Druk alle binnengekomen informatie (NAAM en GESLACHT) af! -->
 
 
-<form method="get">
+<form method="post">
     Nickname: <input type="text" name="naam">
     Geslacht:
     <input type="radio" name="geslacht" value="mannelijk">Mannelijk</input>
@@ -16,8 +16,8 @@
 <?php
 
 
-echo "<li>" . $_GET[] . "</li>";
-echo "<li>" . $_GET[] . "</li>";
+echo "<li>" . $_POST['naam'] . "</li>";
+echo "<li>" . $_POST['geslacht'] . "</li>";
 
 
 /*

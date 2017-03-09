@@ -21,8 +21,8 @@
 
 // Vul de juiste key in voor $_GET[...] zodat de gekozen VORM en KLEUR getoond wordt.
 
-echo "<li>" . $_GET[] . "</li>";
-echo "<li>" . $_GET[] . "</li>";
+echo "<li>" . $_GET['vorm'] . "</li>";
+echo "<li>" . $_GET['kleur'] . "</li>";
 
 ?>
 </ul>
